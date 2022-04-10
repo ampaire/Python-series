@@ -17,5 +17,5 @@ Creating labled columns
 date = pd.date_range('20220728', periods=6)
 print(date)
 
-col = pd.DataFrame(np.random.randn(6, 4), index=date, columns=list("ABCD"))
+col = pd.DataFrame(np.random.randn(6, 4), index=date, columns=["table1","table2", "table3", "table4"])
 print(col)
